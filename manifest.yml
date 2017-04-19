@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: 1602-SwingCoachNaist
+  host: 1602-SwingCoachNaist
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-qw
+  - availability-monitoring-auto
+  env:
+    redacted_message: '[PRIVATE DATA HIDDEN]'
